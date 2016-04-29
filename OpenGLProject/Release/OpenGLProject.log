@@ -1,0 +1,25 @@
+﻿Построение начато 29.04.2016 12:35:28.
+     1>Проект "E:\OpenGLProject\OpenGLProject\OpenGLProject.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp main.cpp SkyBox.cpp Terrain.cpp Text.cpp TextBox.cpp Utils.cpp Water.cpp
+         Camera.cpp
+     1>e:\openglproject\openglproject\Camera.h(1): fatal error C1083: Не удается открыть файл включение: glfw3.h: No such file or directory
+         main.cpp
+     1>main.cpp(1): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory
+         SkyBox.cpp
+     1>e:\openglproject\openglproject\SkyBox.h(1): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory
+         Terrain.cpp
+     1>e:\openglproject\openglproject\terrain.h(1): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory
+         Text.cpp
+     1>e:\openglproject\openglproject\Text.h(4): fatal error C1083: Не удается открыть файл включение: ft2build.h: No such file or directory
+         TextBox.cpp
+     1>e:\openglproject\openglproject\Utils.h(1): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory
+         Utils.cpp
+     1>e:\openglproject\openglproject\Utils.h(1): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory
+         Water.cpp
+     1>e:\openglproject\openglproject\Water.h(1): fatal error C1083: Не удается открыть файл включение: glew.h: No such file or directory
+     1>Построение проекта "E:\OpenGLProject\OpenGLProject\OpenGLProject.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.64

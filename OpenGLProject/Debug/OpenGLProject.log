@@ -1,0 +1,32 @@
+﻿Построение начато 29.04.2016 13:12:00.
+     1>Проект "D:\OpenGLProject\OpenGLProject\OpenGLProject.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\program files\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: APIENTRY: изменение макроопределения
+                 d:\openglproject\openglproject\dependencies\include\glfw3.h(85): см. предыдущее определение "APIENTRY"
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenGLProject\Debug\OpenGLProject.exe" /INCREMENTAL /NOLOGO opengl32.lib glut32.lib glu32.lib glew32.lib glfw3.lib glfw3dll.lib SOIL.lib assimp.lib freetype26.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OpenGLProject\Debug\OpenGLProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenGLProject\Debug\OpenGLProject.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\main.obj
+         Debug\SkyBox.obj
+         Debug\Terrain.obj
+         Debug\Text.obj
+         Debug\TextBox.obj
+         Debug\Utils.obj
+         Debug\Water.obj
+         SOIL.lib(SOIL.obj) : найден .netmodule MSIL или модуль, откомпилированный с параметром /GL; перезапускается компоновка с параметром /LTCG; добавьте /LTCG в командную строку компоновки для повышения производительности компоновщика
+     1>LINK : warning LNK4075: эх єўшЄ√трхЄё  "/INCREMENTAL" шч-чр ёяхЎшЇшърЎшш "/LTCG"
+     1>Camera.obj : warning LNK4075: эх єўшЄ√трхЄё  "/EDITANDCONTINUE" шч-чр ёяхЎшЇшърЎшш "/OPT:LBR"
+     1>LINK : warning LNK4098: сшсышюЄхър яю єьюыўрэш■ "MSVCRT" яЁюЄштюЁхўшЄ шёяюы№чютрэш■ фЁєушї сшсышюЄхъ; шёяюы№чєщЄх ярЁрьхЄЁ /NODEFAULTLIB:library
+         ╤ючфрэшх ъюфр
+         ╤ючфрэшх ъюфр чртхЁ°хэю
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: "vc110.pdb" PDB эх эрщфхэ ё "SOIL.lib(SOIL.obj)" шыш эр "D:\OpenGLProject\Debug\vc110.pdb"; ъюьяюэютър юс·хъЄр т√яюыэ хЄё  ъръ яЁш юЄёєЄёЄтшш юЄырфюўэ√ї фрээ√ї
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: "vc110.pdb" PDB эх эрщфхэ ё "SOIL.lib(stb_image_aug.obj)" шыш эр "D:\OpenGLProject\Debug\vc110.pdb"; ъюьяюэютър юс·хъЄр т√яюыэ хЄё  ъръ яЁш юЄёєЄёЄтшш юЄырфюўэ√ї фрээ√ї
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: "vc110.pdb" PDB эх эрщфхэ ё "SOIL.lib(image_helper.obj)" шыш эр "D:\OpenGLProject\Debug\vc110.pdb"; ъюьяюэютър юс·хъЄр т√яюыэ хЄё  ъръ яЁш юЄёєЄёЄтшш юЄырфюўэ√ї фрээ√ї
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: "vc110.pdb" PDB эх эрщфхэ ё "SOIL.lib(image_DXT.obj)" шыш эр "D:\OpenGLProject\Debug\vc110.pdb"; ъюьяюэютър юс·хъЄр т√яюыэ хЄё  ъръ яЁш юЄёєЄёЄтшш юЄырфюўэ√ї фрээ√ї
+         OpenGLProject.vcxproj -> D:\OpenGLProject\Debug\OpenGLProject.exe
+     1>Построение проекта "D:\OpenGLProject\OpenGLProject\OpenGLProject.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:06.76
